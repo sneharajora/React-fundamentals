@@ -14,5 +14,5 @@ function ConditionalRender(){
      <>
         <Password isValid={true}/>
      </>
-   )
+   );
 }
