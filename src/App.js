@@ -7,8 +7,8 @@ import Button from './componets/Button.jsx';
 import './index.css';
 import State from './componets/State.jsx';
 import Objects from './componets/Objects.jsx';
-
-
+import Forms from './componets/Forms.jsx';
+import UseEffect from './componets/UseEffect.jsx';
 function App() {
   const myName = "huXn WebDev";
   const multiply = (a,b) => a*b;
@@ -44,6 +44,8 @@ function App() {
        <Button ></Button>
        <State></State>
        <Objects></Objects>
+       <Forms></Forms>
+       <UseEffect></UseEffect>
      </>
   );
 }
