@@ -6,6 +6,8 @@ import Ternary from './componets/Ternary.jsx';
 import Button from './componets/Button.jsx';
 import './index.css';
 import State from './componets/State.jsx';
+import Objects from './componets/Objects.jsx';
+
 
 function App() {
   const myName = "huXn WebDev";
@@ -41,6 +43,7 @@ function App() {
        <Ternary></Ternary>
        <Button ></Button>
        <State></State>
+       <Objects></Objects>
      </>
   );
 }
