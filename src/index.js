@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import Current from './Current';
-
+import Todo   from './Todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Current/>
+    <Todo/>
   </React.StrictMode>
 );
 
